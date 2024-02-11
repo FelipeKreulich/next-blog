@@ -16,6 +16,11 @@
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .links {
@@ -24,6 +29,10 @@
   gap: 20px;
   flex: 1;
   font-size: 20px;
+}
+
+.link:hover {
+  color: var(--softTextColor);
 }
 
 @media screen and (max-width: 1280px) {

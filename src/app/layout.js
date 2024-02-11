@@ -8,8 +8,8 @@ import ThemeProvider from '@/providers/ThemeProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Connected Blog',
-  description: 'The best blog for Programmers!',
+  title: 'Coding Everday | Blog',
+  description: 'Developed by FelipeKreulich',
 }
 
 export default function RootLayout({ children }) {
